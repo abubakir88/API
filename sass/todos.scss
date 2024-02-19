@@ -1,0 +1,26 @@
+body {
+  background-color: aqua;
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+    .card {
+      display: flex;
+      // justify-content: space-between;
+      align-items: center;
+      background-color: #fff;
+      gap: 10px;
+      h2 {
+        font-size: 20px;
+        padding-left: 10px;
+      }
+      p {
+        position: absolute;
+        right: 0;
+        padding-right: 10px;
+      }
+    }
+  }
+}

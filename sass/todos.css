@@ -1,1 +1,25 @@
-/*# sourceMappingURL=todos.css.map */
+body {
+  background-color: aqua;
+}
+body .cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+}
+body .cards .card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  gap: 10px;
+}
+body .cards .card h2 {
+  font-size: 20px;
+  padding-left: 10px;
+}
+body .cards .card p {
+  position: absolute;
+  right: 0;
+  padding-right: 10px;
+}/*# sourceMappingURL=todos.css.map */

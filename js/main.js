@@ -2,7 +2,7 @@ const usersDiv = document.querySelector(".cards.users");
 
 async function fetchUsers() {
   try {
-    let res = await fetch("https://jsonplaceholder.typicode.com/users");
+    let res = await fetch(`https://jsonplaceholder.typicode.com/users`);
     let data = await res.json();
     displayUsers(data);
   } catch (error) {
