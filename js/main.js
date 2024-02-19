@@ -26,8 +26,8 @@ function displayUsers(users) {
         <p>Phone: <a href="">${user.phone}</a></p>
        <div class="vmes">
        <button class="but1"><a class="first" href="./todos.html" onclick="getTodos(${user.id})">Todos</a></button> 
-       <button class="but1"><a class="first" href="./todos.html" onclick="getTodos(${user.id})">Posts</a></button> 
-       <button class="but1"><a class="first" href="./todos.html" onclick="getTodos(${user.id})">Gallery</a></button> 
+       <button class="but1"><a class="first" href="./posts.html" onclick="getTodos(${user.id})">Posts</a></button> 
+       <button class="but1"><a class="first" href="./gallery.html" onclick="getTodos(${user.id})">Gallery</a></button> 
 
        </div>
        </div>

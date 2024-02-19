@@ -142,7 +142,6 @@ function displayTodos(todos) {
     str += `
       <div class='card'>
         <h2>${todo.title}</h2>
-        <h2>Id: ${todo.id}</h2>
         <p>Completed: ${todo.completed ? "✅" : "❌"}</p>
       </div>
     `;
